@@ -13,7 +13,7 @@ body {
 .header img {
   width: 100%;
 }
-.aaa .more-inf {
+.more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -34,7 +34,7 @@ body {
 .task-wrap {
   display: flex;
 }
-ul {
+.lists {
   margin:0;
   padding: 0px;
 }
@@ -128,7 +128,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+.task {
   text-decoration: line-through
   color: #888;
 }
