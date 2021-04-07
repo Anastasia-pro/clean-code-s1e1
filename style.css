@@ -107,7 +107,7 @@ label[for="new-task"] {
 }
 
 input#new-task {
-  width: 318px;
+  width: 70%;
 }
 
 /* Task list */
@@ -150,7 +150,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-.task {
+.task1 {
   text-decoration: line-through;
   color: #888;
 }
@@ -167,4 +167,11 @@ ul li.edit-mode input[type="text"] {
 
 ul li.edit-mode label {
   display: none;
+  text-decoration: line-through;
+  color: #888;
+}
+#completed-tasks {
+  text-decoration: line-through;
+    color: #888;
+   
 }
